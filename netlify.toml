@@ -1,0 +1,4 @@
+[build]
+base = "jacobs-band/"
+publish = "jacobs-band/build/"
+command = "npm run build"
