@@ -9,7 +9,7 @@ function App() {
         <span><img src={logo} className="App-logo" alt="logo" /><img src={logo} className="App-logo-2" alt="logo" /></span>
         
         <p>
-          Website Under Construction for Jacobs Band!
+          Website Under Construction for asdf!
         </p>
       </header>
     </div>
