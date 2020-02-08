@@ -6,33 +6,33 @@ import {
   Link
 } from "react-router-dom";
 
+import HomePage from './pages/homePage/home';
+import AboutPage from './pages/about/about';
+import Footer from './components/footer/footer';
+
 import './App.css';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
+        <div className="App-header">
           
           <p>
             Website Under Construction for Jacobs Band!
           </p>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/users">Users</Link>
-        </header>
-
-          <Switch>
+        </div>
+          <Switch className='page-switch'>
             <Route path="/about">
-              <h2>About</h2>
-            </Route>
-            <Route path="/users">
-            <h2>Users</h2>
+              <AboutPage />
             </Route>
             <Route path="/">
-            <h2>Home</h2>
+            <HomePage />
             </Route>
           </Switch>
+        <Footer />
       </div>
     </Router>
   );

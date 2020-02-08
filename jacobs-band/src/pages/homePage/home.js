@@ -1,7 +1,12 @@
 import React from 'react';
 
-const homePage = () => {
-    return(<h2>Home Page</h2>);
+const HomePage = () => {
+    return(
+        <div style={{height: '90vh', backgroundColor: 'grey', display: 'flex'}}>
+
+            <div>Home Page</div>
+        </div>
+    );
 };
 
-export default homePage;
+export default HomePage;
