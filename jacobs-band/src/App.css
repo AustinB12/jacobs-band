@@ -12,3 +12,30 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/* SOCIAL STUFF */
+.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.spotify {
+  color: #1ED761;
+}
+
+a.instagram {
+  color: black;
+}

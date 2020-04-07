@@ -1,11 +1,11 @@
 import React from 'react';
+import SocialFollow from '../socialFollow/socialFollow';
 
 const Footer = () => {
 
     return (
         <div style={{backgroundColor: 'green', height: '20vh', display: 'flex'}}>
-            <div style={{marginTop: '5vh'}} />
-            <div style={{color: 'white'}}>I'm a footer</div>
+            <SocialFollow />
         </div>
     );
 }
