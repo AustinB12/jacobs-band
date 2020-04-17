@@ -2,16 +2,18 @@ import React from "react";
 import {
   faYoutube,
   faSpotify,
-  faInstagram
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import "../../styles/components/social.scss";
 
 const SocialFollow = () => {
   return (
     <div className="social-container">
       <h3>Follow Blue Karma!</h3>
       <a
-        href="https://www.youtube.com"  // TODO: change link to go to your profile
+        href="https://www.youtube.com/channel/UCipvlXzIub_NwlL9smDpm1Q"
         className="youtube social"
       >
         <FontAwesomeIcon icon={faYoutube} size="2x" />
@@ -30,6 +32,6 @@ const SocialFollow = () => {
       </a>
     </div>
   );
-}
+};
 
 export default SocialFollow;

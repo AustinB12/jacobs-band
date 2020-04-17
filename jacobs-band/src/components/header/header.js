@@ -2,19 +2,34 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import HomePage from "../../pages/homePage/home";
-import AboutPage from "../../pages/about/about";
+import VideosPage from "../../pages/videos/videos";
+import ContactPage from "../../pages/contact/contact";
+
+import "../../styles/components/header.scss";
 
 const Header = () => {
   return (
     <Router>
       <div className="App-header">
-        <p>Website Under Constructionzzz for Jacobs Band!</p>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <h1>Blue Karma</h1>
+        <ul className={"header-links"}>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/videos">Videos</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
       </div>
       <Switch className="page-switch">
-        <Route path="/about">
-          <AboutPage />
+        <Route path="/videos">
+          <VideosPage />
+        </Route>
+        <Route path="/contact">
+          <ContactPage />
         </Route>
         <Route path="/">
           <HomePage />
