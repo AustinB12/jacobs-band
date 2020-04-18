@@ -1,0 +1,10 @@
+@import "../variables.scss";
+
+.home-container {
+  h1 {
+    color: white;
+    margin: 0;
+  }
+  background-color: $primary-black;
+  min-height: 90vh;
+}

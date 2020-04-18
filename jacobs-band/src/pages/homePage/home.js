@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+
+import "../../styles/pages/home.scss";
 
 const HomePage = () => {
-    return(
-        <div style={{height: '90vh', backgroundColor: 'grey', display: 'flex'}}>
-
-            <div>Home Page</div>
-        </div>
-    );
+  return (
+    <div className={"home-container"}>
+      <h1>Home Page</h1>
+    </div>
+  );
 };
 
 export default HomePage;

@@ -1,13 +1,14 @@
-import React from 'react';
-import SocialFollow from '../socialFollow/socialFollow';
+import React from "react";
+import SocialFollow from "../socialFollow/socialFollow";
+
+import "../../styles/components/footer.scss";
 
 const Footer = () => {
-
-    return (
-        <div style={{backgroundColor: 'green', height: '20vh', display: 'flex'}}>
-            <SocialFollow />
-        </div>
-    );
-}
+  return (
+    <div className="footer-container">
+      <SocialFollow />
+    </div>
+  );
+};
 
 export default Footer;
