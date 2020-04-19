@@ -1,0 +1,16 @@
+@import "../variables.scss";
+
+.App-header {
+  background-color: $primary-blue;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header-links li {
+  margin-left: 40px;
+}

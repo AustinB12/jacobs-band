@@ -1,0 +1,31 @@
+@import "../variables.scss";
+
+.social-container {
+  background: $primary-black;
+  padding: 25px 50px;
+}
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.spotify {
+  color: #1ed761;
+}
+
+a.instagram {
+  color: white;
+}
+
+.header-links {
+  display: flex;
+}

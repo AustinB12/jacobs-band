@@ -1,17 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import Header from "./components//header/header";
+import Footer from "./components/footer/footer";
+
+import "./styles/app.scss";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <span><img src={logo} className="App-logo" alt="logo" /><img src={logo} className="App-logo-2" alt="logo" /></span>
-        
-        <p>
-          Website Under Construction for Jacobs Band!
-        </p>
-      </header>
+      <Header />
+      <Footer />
     </div>
   );
 }
