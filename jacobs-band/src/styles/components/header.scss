@@ -2,7 +2,9 @@
 
 .App-header {
   background-color: $primary-blue;
-  min-height: 10vh;
+  min-height: 20vh;
+  height: 22vh;
+  max-height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: center;
