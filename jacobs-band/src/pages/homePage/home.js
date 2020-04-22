@@ -7,8 +7,7 @@ import "../../styles/pages/home.scss";
 const HomePage = () => {
   return (
     <div className={"home-container"}>
-      <h1>Home Page</h1>
-      <Bio></Bio>
+      <Bio />
     </div>
   );
 };

@@ -2,8 +2,12 @@
 
 .bio-container {
   color: $primary-white;
+  background-color: rgb(29, 28, 28);
 
-  border: 2px solid green;
+  width: 50vw;
+
+  display: inline-block;
+  margin: 5vh auto;
 
   img {
     width: 400px;
