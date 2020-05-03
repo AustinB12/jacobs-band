@@ -11,8 +11,7 @@ import "../../styles/components/header.scss";
 const Header = () => {
   return (
     <Router>
-      <div className="App-header">
-        <h1>Blue Karma</h1>
+      <div className={"App-header"}>
         <ul className={"header-links"}>
           <li>
             <Link to="/">Home</Link>
