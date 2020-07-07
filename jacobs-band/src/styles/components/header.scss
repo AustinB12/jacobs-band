@@ -2,15 +2,28 @@
 
 .App-header {
   background-color: $primary-blue;
+  opacity: 0.8;
+  position: fixed;
+  z-index: +1;
+  width: 100%;
   min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 10vh;
+  max-height: 15vh;
+  margin-top: 0 px;
+}
+
+.header-links li {
+  //align-items: right;
+  //justify-content: right;
+  //display: flex;
+  //flex-direction: column;
+  float: right;
+  margin-left: 100px;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.header-links li {
-  margin-left: 40px;
+.header-links{
+  list-style-type: none;
 }
+
