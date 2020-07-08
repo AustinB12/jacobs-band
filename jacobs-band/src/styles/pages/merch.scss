@@ -3,9 +3,9 @@
 .merchandise-page {
   background-color: $primary-black;
   color: $primary-white;
-  height: 78vh;
-
+  min-height: 78vh;
   h1 {
+    padding-top: 100px;
     margin: 0;
   }
 
@@ -14,15 +14,14 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 15vh 15vh 15vh;
     grid-gap: 5vw 5vw;
-    margin: 5vw;
+    padding: 5vw;
 
     div {
       background-color: grey;
     }
 
     div:hover {
-      transform: translateY(-2px);
-      box-shadow: 4px 4px 4px 4px $primary-blue inset;
+      border-bottom: 4px solid $primary-blue;
     }
   }
 }
