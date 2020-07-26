@@ -13,10 +13,6 @@
 }
 
 .header-links li {
-  //align-items: right;
-  //justify-content: right;
-  //display: flex;
-  //flex-direction: column;
   float: right;
   margin-left: 100px;
   font-size: calc(10px + 2vmin);
@@ -41,5 +37,5 @@
 
 .header-links {
   list-style-type: none;
-  margin-left: 100px;
+  margin-right: 70px;
 }

@@ -9,7 +9,7 @@ const VideoContainer = () => {
         width="560"
         height="315"
         src="https://www.youtube.com/embed/dwkeqAO_qDA"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen="false"
         title="Half Full Glass of Wine Cover"
@@ -18,7 +18,7 @@ const VideoContainer = () => {
         width="560"
         height="315"
         src="https://www.youtube.com/embed/LakeVG6BWZU"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
         title="Is It True Cover"
@@ -27,7 +27,7 @@ const VideoContainer = () => {
         width="560"
         height="315"
         src="https://www.youtube.com/embed/KfE5E1TlR8k"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
@@ -35,7 +35,7 @@ const VideoContainer = () => {
         width="560"
         height="315"
         src="https://www.youtube.com/embed/6kSMYOC9O1c"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
