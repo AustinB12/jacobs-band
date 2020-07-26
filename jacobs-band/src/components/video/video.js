@@ -30,6 +30,7 @@ const VideoContainer = () => {
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
+        title="3"
       ></iframe>
       <iframe
         width="560"
@@ -38,6 +39,7 @@ const VideoContainer = () => {
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
+        title="4"
       ></iframe>
     </div>
   );
