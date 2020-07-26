@@ -2,7 +2,7 @@
 
 .App-header {
   background-color: $primary-blue;
-  opacity: 0.8;
+  opacity: 0.9;
   position: fixed;
   z-index: +1;
   width: 100%;
@@ -13,17 +13,29 @@
 }
 
 .header-links li {
-  //align-items: right;
-  //justify-content: right;
-  //display: flex;
-  //flex-direction: column;
   float: right;
   margin-left: 100px;
   font-size: calc(10px + 2vmin);
-  color: white;
+
+  a {
+    color: $primary-black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: gray;
+    text-decoration: none;
+  }
+  a:active {
+    color: gray;
+    text-decoration: none;
+  }
+  a:visited {
+    color: $primary-black;
+    text-decoration: none;
+  }
 }
 
-.header-links{
+.header-links {
   list-style-type: none;
+  margin-right: 70px;
 }
-

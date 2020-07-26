@@ -14,16 +14,16 @@ const Header = () => {
       <div className={"App-header"}>
         <ul className={"header-links"}>
           <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/videos">Videos</Link>
+            <Link to="/merchandise">Merch</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/merchandise">Merch</Link>
+            <Link to="/videos">Videos</Link>
+          </li>
+          <li>
+            <Link to="/">Home</Link>
           </li>
         </ul>
       </div>
