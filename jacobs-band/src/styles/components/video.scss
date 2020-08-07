@@ -3,4 +3,9 @@
 .videos-container {
   background-color: $primary-black;
   color: white;
+  iframe {
+    margin: 10px 10px;
+    height: 22vw;
+    width: 40vw;
+  }
 }
