@@ -1,12 +1,10 @@
 @import "../variables.scss";
 
 .home-container {
-  h1 {
-    color: white;
-    margin: 0;
-  }
-  min-height: 90vh;
+  overflow: auto;
   background-color: $primary-pink;
+
+  //? This is repeating background image CSS
   //background-image: url("../../assets/In the Studio.jpg");
   // background-repeat: repeat;
   // background-attachment: fixed;

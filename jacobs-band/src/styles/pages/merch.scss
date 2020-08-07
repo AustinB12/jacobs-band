@@ -3,7 +3,8 @@
 .merchandise-page {
   background-color: $primary-pink;
   color: $primary-white;
-  min-height: 78vh;
+  font-family: "Sunflower";
+  overflow: auto;
   h1 {
     padding-top: 100px;
     margin: 0;
