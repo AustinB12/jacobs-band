@@ -2,6 +2,7 @@
 
 .videos-container {
   background-color: $primary-pink;
+  overflow: auto;
   h1 {
     margin: 0;
     padding-top: 100px;

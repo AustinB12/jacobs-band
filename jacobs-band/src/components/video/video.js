@@ -6,8 +6,6 @@ const VideoContainer = () => {
   return (
     <div className={"video-container"}>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/oYzqufunkgQ"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -15,8 +13,6 @@ const VideoContainer = () => {
         title="Fuzz - What's In My Head - Live Cover"
       ></iframe>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/xhs94U3OpsQ"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -24,8 +20,6 @@ const VideoContainer = () => {
         title="Tame Impala - Alter Ego Multi-Instramental Cover (ft. Angie Bula)"
       ></iframe>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/dwkeqAO_qDA"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -33,8 +27,6 @@ const VideoContainer = () => {
         title="Half Full Glass of Wine Cover"
       ></iframe>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/LakeVG6BWZU"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -42,8 +34,6 @@ const VideoContainer = () => {
         title="Is It True Cover"
       ></iframe>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/KfE5E1TlR8k"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -51,8 +41,6 @@ const VideoContainer = () => {
         title="3"
       ></iframe>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube.com/embed/6kSMYOC9O1c"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

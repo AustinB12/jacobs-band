@@ -2,20 +2,36 @@
 
 .bio-container {
   color: $primary-white;
-  background-color: rgb(29, 28, 28);
-  box-shadow: 5px 5px $primary-blue;
+  background-color: $primary-black;
   font-family: "Sunflower";
 
-  width: 100vw;
-
-  display: inline-block;
-
+  display: block;
+  height: 400px;
   margin-top: 125px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
+}
+.bio-container img {
+  width: 400px;
+  height: 400px;
+  clip-path: circle(250px at 100px 100px);
+}
 
-  img {
-    width: 400px;
-    height: 400px;
-    clip-path: circle(250px at 100px 100px);
+.bio-container h2 {
+  padding: 20px 20px;
+  font-size: calc(5px + 3vw);
+}
+
+.bio-container p {
+  font-size: calc(5px + 1vw);
+  padding-bottom: 12px;
+}
+
+@media (max-width: 500px) {
+  .bio-container img {
+    display: none;
+  }
+
+  .bio-container {
+    height: auto;
   }
 }

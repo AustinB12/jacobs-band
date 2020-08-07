@@ -6,10 +6,12 @@
   top: -40px;
   z-index: +2;
   opacity: 0.8;
-  max-width: 275px;
-  max-height: 275px;
-  min-width: 200px;
-  min-height: 200px;
+  width: 30vw;
+  height: 30vw;
+  max-width: 300px;
+  max-height: 300px;
+  // min-width: 200px;
+  // min-height: 200px;
 
   img {
     width: 100%;

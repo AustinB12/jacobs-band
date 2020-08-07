@@ -15,12 +15,6 @@ const Bio = () => {
         text text text text text texttext text text text text text text text
         text text texttext text text text text text text text text text text
       </p>
-      <p>
-        Jacob Adams is a 23 year old musician from Wilmington NC, USA text text
-        text text text text text text text text texttext text text text text
-        text text text text text texttext text text text text text text text
-        text text texttext text text text text text text text text text text
-      </p>
     </div>
   );
 };
