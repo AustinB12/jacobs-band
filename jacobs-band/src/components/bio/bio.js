@@ -8,13 +8,19 @@ const Bio = () => {
   return (
     <div className="bio-container">
       <img src={selfie} align="left" alt="Something went wrong :(" />
-      <h2>The man behind Blue Karma</h2>
-      <p>Jacob Adams is a 23 year old musician from Wilmington NC, USA</p>
-      <p>More text text text text text text text text text text text </p>
-      <p>More text text text text text text text text text text text </p>
-      <p>More text text text text text text text text text text text </p>
-      <p>More text text text text text text text text text text text </p>
-      <p>More text text text text text text text text text text text </p>
+      <h2>Who is Blue Karma?</h2>
+      <p>
+        Jacob Adams is a 23 year old musician from Wilmington NC, USA text text
+        text text text text text text text text texttext text text text text
+        text text text text text texttext text text text text text text text
+        text text texttext text text text text text text text text text text
+      </p>
+      <p>
+        Jacob Adams is a 23 year old musician from Wilmington NC, USA text text
+        text text text text text text text text texttext text text text text
+        text text text text text texttext text text text text text text text
+        text text texttext text text text text text text text text text text
+      </p>
     </div>
   );
 };

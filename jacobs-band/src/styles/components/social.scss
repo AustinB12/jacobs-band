@@ -1,7 +1,7 @@
 @import "../variables.scss";
 
 .social-container {
-  background: $primary-black;
+  background: $primary-pink;
   padding: 25px 50px;
 }
 a.social {
@@ -15,13 +15,17 @@ a.social:hover {
 }
 
 a.youtube {
-  color: #eb3223;
+  color: $primary-blue;
 }
 
 a.spotify {
-  color: #1ed761;
+  color: $primary-blue;
 }
 
 a.instagram {
-  color: white;
+  color: $primary-blue;
+}
+
+a.facebook {
+  color: $primary-blue;
 }

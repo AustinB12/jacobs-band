@@ -8,6 +8,24 @@ const VideoContainer = () => {
       <iframe
         width="560"
         height="315"
+        src="https://www.youtube.com/embed/oYzqufunkgQ"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        title="Fuzz - What's In My Head - Live Cover"
+      ></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/xhs94U3OpsQ"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        title="Tame Impala - Alter Ego Multi-Instramental Cover (ft. Angie Bula)"
+      ></iframe>
+      <iframe
+        width="560"
+        height="315"
         src="https://www.youtube.com/embed/dwkeqAO_qDA"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

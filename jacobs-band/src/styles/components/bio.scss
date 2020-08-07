@@ -3,11 +3,15 @@
 .bio-container {
   color: $primary-white;
   background-color: rgb(29, 28, 28);
+  box-shadow: 5px 5px $primary-blue;
+  font-family: "Sunflower";
 
-  width: 50vw;
+  width: 100vw;
 
   display: inline-block;
-  margin: 100px auto;
+
+  margin-top: 125px;
+  margin-bottom: 100px;
 
   img {
     width: 400px;

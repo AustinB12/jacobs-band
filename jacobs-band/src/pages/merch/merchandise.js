@@ -7,12 +7,12 @@ const MerchandisePage = () => {
     <div className={"merchandise-page"}>
       <h1>Merchandise Page Is Under Construction!</h1>
       <div className={"merch-products"}>
-        <div />
-        <div />
-        <div />
-        <div />
-        <div />
-        <div />
+        <div>Coming Soon!</div>
+        <div>Coming Soon!</div>
+        <div>Coming Soon!</div>
+        <div>Coming Soon!</div>
+        <div>Coming Soon!</div>
+        <div>Coming Soon!</div>
       </div>
     </div>
   );

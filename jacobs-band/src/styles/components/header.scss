@@ -1,41 +1,27 @@
 @import "../variables.scss";
 
 .App-header {
-  background-color: $primary-blue;
-  opacity: 0.9;
   position: fixed;
   z-index: +1;
   width: 100%;
-  min-height: 10vh;
-  height: 10vh;
-  max-height: 15vh;
-  margin-top: 0 px;
+}
+
+.header-links li:first-child {
+  margin-right: 12px;
 }
 
 .header-links li {
   float: right;
-  margin-left: 100px;
+  margin-left: 30px;
   font-size: calc(10px + 2vmin);
-
-  a {
-    color: $primary-black;
-    text-decoration: none;
-  }
-  a:hover {
-    color: gray;
-    text-decoration: none;
-  }
-  a:active {
-    color: gray;
-    text-decoration: none;
-  }
-  a:visited {
-    color: $primary-black;
-    text-decoration: none;
-  }
+  font-family: "Sunflower";
+  color: $primary-blue;
+  text-shadow: 2px 2px $primary-black;
+  text-decoration: none;
 }
 
 .header-links {
   list-style-type: none;
-  margin-right: 70px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
