@@ -4,7 +4,7 @@ import "../../styles/pages/merch.scss";
 
 const MerchandisePage = () => {
   return (
-    <div className={"merchandise-page"}>
+    <div id={"merch"} className={"merchandise-page"}>
       <h1>Merch is Coming Soon!</h1>
       <div className={"merch-products"}>
         <div>Coming Soon!</div>

@@ -6,7 +6,7 @@ import "../../styles/pages/videos.scss";
 
 const VideosPage = () => {
   return (
-    <div className={"videos-container"}>
+    <div id={"vids"} className={"videos-container"}>
       <Video />
     </div>
   );

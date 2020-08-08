@@ -9,7 +9,7 @@ import "../../styles/pages/home.scss";
 
 const HomePage = () => {
   return (
-    <div className={"home-container"}>
+    <div id={"home"} className={"home-container"}>
       <Bio />
       <Videos />
       <Merch />
