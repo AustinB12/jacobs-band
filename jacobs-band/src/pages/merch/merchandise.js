@@ -1,18 +1,19 @@
 import React from "react";
 
+import imgPath from "../../assets/bioPic.png";
+
+import Product from "./product";
+
 import "../../styles/pages/merch.scss";
 
 const MerchandisePage = () => {
   return (
     <div id={"merch"} className={"merchandise-page"}>
-      <h1>Merch is Coming Soon!</h1>
+      <h1>Merch, Bitches!</h1>
       <div className={"merch-products"}>
-        <div>Coming Soon!</div>
-        <div>Coming Soon!</div>
-        <div>Coming Soon!</div>
-        <div>Coming Soon!</div>
-        <div>Coming Soon!</div>
-        <div>Coming Soon!</div>
+        <Product title="It's Me!" image={imgPath}></Product>
+        <Product title="Me Again!" image={imgPath}></Product>
+        <Product title="Hey you ;)" image={imgPath}></Product>
       </div>
     </div>
   );

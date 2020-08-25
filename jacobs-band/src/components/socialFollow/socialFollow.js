@@ -13,7 +13,7 @@ const SocialFollow = () => {
   return (
     <div className="social-container">
       <a
-        href="https://www.youtube.com/channel/UCipvlXzIub_NwlL9smDpm1Q"
+        href="https://www.facebook.com/WhoisBlueKarma/"
         className="facebook social"
       >
         <FontAwesomeIcon icon={faFacebook} size="2x" />
