@@ -13,7 +13,7 @@
 .bio-container img {
   width: 400px;
   height: 400px;
-  clip-path: circle(250px at 100px 100px);
+  clip-path: ellipse(200px 240px at 170px 200px);
 }
 
 .bio-container h2 {
@@ -23,7 +23,8 @@
 
 .bio-container p {
   font-size: calc(5px + 1vw);
-  padding-bottom: 12px;
+  padding: 12px 50px 12px 50px;
+  text-align: right;
 }
 
 @media (max-width: 500px) {
