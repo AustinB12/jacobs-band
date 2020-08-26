@@ -1,13 +1,14 @@
 @import "../variables.scss";
 
 .social-container {
-  background: $primary-pink;
+  background-color: $primary-black;
   padding: 25px 50px;
 }
 a.social {
   margin: 0 1rem;
   transition: all 250ms ease;
   display: inline-block;
+  filter: drop-shadow(2px 2px $primary-pink);
 }
 
 a.social:hover {

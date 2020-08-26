@@ -10,6 +10,10 @@
   margin-right: 12px;
 }
 
+.header-links li:hover {
+  border-bottom: 2px solid $primary-pink;
+}
+
 .header-links li {
   float: right;
   margin-left: 5vw;

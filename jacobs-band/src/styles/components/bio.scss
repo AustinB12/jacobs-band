@@ -23,7 +23,8 @@
 
 .bio-container p {
   font-size: calc(5px + 1vw);
-  padding-bottom: 12px;
+  padding: 12px 50px 12px 50px;
+  text-align: right;
 }
 
 @media (max-width: 500px) {
