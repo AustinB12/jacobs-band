@@ -6,8 +6,8 @@ const Product = (props) => {
   return (
     <div className="product">
       <a href="https://bluekarmaofficial.bandcamp.com/merch">
-        <img src={props.image} alt="I'm an "></img>
-        <h1>{props.title}</h1>
+        <img src={props.image} alt="Product"></img>
+        <h3>{props.title}</h3>
       </a>
     </div>
   );

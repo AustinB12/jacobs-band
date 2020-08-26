@@ -10,10 +10,8 @@ const Bio = () => {
       <img src={selfie} align="left" alt="Something went wrong :(" />
       <h2>Who is Blue Karma?</h2>
       <p>
-        Jacob Adams is a 23 year old musician from Wilmington NC, USA text text
-        text text text text text text text text texttext text text text text
-        text text text text text texttext text text text text text text text
-        text text texttext text text text text text text text text text text
+        Jacob Adams is a 23 year old musician from Wilmington NC, USA whos
+        specialty is psychedelic music. His debut EP is coming out this fall!
       </p>
     </div>
   );

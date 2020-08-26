@@ -1,13 +1,15 @@
 @import "../variables.scss";
 
 .merchandise-page {
+  padding: 15px 15px 15px 15px;
   background-color: $primary-black;
   color: $primary-white;
   font-family: "Sunflower";
   overflow: auto;
-  h1 {
+  h3 {
     padding-top: 100px;
     margin: 0;
+    text-decoration: none;
   }
 
   @media (max-width: 400px) {
@@ -45,8 +47,14 @@
 
     .product {
       overflow: visible;
+      box-shadow: 3px 3px 2px $primary-blue, -2px -2px 2px $primary-pink;
 
-      h1 {
+      a {
+        text-decoration: none;
+        color: $primary-white;
+      }
+
+      h3 {
         padding: 0;
         font-size: calc(10px + 1vw);
       }
